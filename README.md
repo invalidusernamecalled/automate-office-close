@@ -10,7 +10,7 @@
 + `winget install python`
 + `pip install pywin32`
 
-#### Running the python script <----- to use the program
+#### Running the python script to use the program
 + `python c:\path\to\session.manager.py`
 
 
