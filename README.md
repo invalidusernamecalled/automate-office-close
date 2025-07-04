@@ -22,10 +22,12 @@
 + The saved(?) & closed files in the session can be `RE-OPENED` automatically by selecting the saved session from the list and then `RESTORE SESSION`.
 + the script writes some txt files session_list_xxxx-xx-xx_xx-xx.txt in the same directory as the script. it is better to store the scripts in a separate directory to avoid over writing of similar name files
 + The script does not use KILL mechanism to close OFFICE, rather it uses COM protocol.
-+ Disclaimer: Software is provided AS IS and WITHOUT WARRANTY or LIABILITY for the Authors (without even any implied warranty of merchantibility or usability)
++ Disclaimer: This software is provided <b>"as is"</b>, without any warranty or liability.
+There is no guarantee of merchantability or fitness for a particular purpose, express or implied.
+Use at your own risk.
 
 #### what each script does:-
-+ `saver.ps1---->Tries to get a list of open windows, saves and closes (MS Word/Excel) using COM Object interactions`
++ `saver.ps1---->Tries to get a list of open windows, saves and closes open Word/Excel files using COM objects`
 + `saver.ps1---->Saves the list to session_list_xxxx-xx-xx_xx-xx.txt in the format yyyy-MM-dd_HH-mm and marks it as hidden`
 + `session.manager.ps1----> Saves/Restores/Displays List of Sessions. Performs actions based on User interactions like executing Saver.ps1 script to save and close windows`
 
