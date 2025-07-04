@@ -5,6 +5,8 @@
 + the python script contains the saving (`remember`) logic and the UI.
 + Anomaly: In some cases files may not be saved before closing but users most likely will be prompted (by Word/Excel) to save them. (See Usage Section & Disclaimer for more info)
 
+`Disclaimer: This software is provided "as is", without any warranty or liability. There is no guarantee of merchantability or fitness for a particular purpose, express or implied. Use at your own risk.`
+
 #### dependencies to install
 + `winget install python`
 + `pip install pywin32`
@@ -22,10 +24,7 @@
 + The saved(?) & closed files in the session can be `RE-OPENED` automatically by selecting the saved session from the list and then clicking `RESTORE SESSION`.
 + the script writes some txt files session_list_xxxx-xx-xx_xx-xx.txt in the same directory as the script.
 + keep the scripts in its separate directory due to the risk of over writing
-+ The script does not use KILL to close MS-OFFICE APPS, rather it tries to close them gracefully using COM objects.
-+ Disclaimer: This software is provided <b>"as is"</b>, without any warranty or liability.
-There is no guarantee of merchantability or fitness for a particular purpose, express or implied.
-Use at your own risk.
++ the script does not KILL the MS-OFFICE APPS, rather it tries to close them gracefully using COM objects.
 
 #### what each script does:-
 + `saver.ps1---->Tries to get a list of open windows, saves and closes open Word/Excel files using COM objects`
