@@ -21,3 +21,6 @@
 #### usage:-
 + the script writes some txt files session_list_xxxx-xx-xx_xx-xx.txt in the same directory as the script. it is better to store the scripts in a separate directory to avoid over writing of similar name files
 + The script does not use KILL mechanism to close OFFICE, rather it uses COM protocol.
+
+------
+I am a Christian AND I REMAIN (C) PUNEET BAPNA
