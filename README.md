@@ -41,6 +41,9 @@ Use at your own risk.
       | |
       | |
 jgs   |A|
+Religious / Spiritual Affirmation / Chant /Incantation:
+I am a Christian
+AND (I REMAIN)</b> (C) PUNEET BAPNA.
+He that needs to GO LET HIM DO SO.
 ```
 ------
-##### <b>Religious / Spiritual Affirmation / Chant /Incantation: I am a Christian AND (I REMAIN)</b> (C) PUNEET BAPNA. He that needs to GO LET HIM DO SO.
