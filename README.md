@@ -3,7 +3,7 @@
 + Session data (list of files) is stored in a txt file in the Same directory.
 + if you would like to `save` & `close` and nothing else, you can simply run `saver.ps1` (powershell script)
 + the python script contains the saving (`remember`) logic and the UI.
-+ Anomalies: In some cases files may not be saved, users will most likely be prompted to save them. (See Usage Section & Disclaimer for more info)
++ Anomaly: In some cases files may not be saved before closing but users most likely will be prompted (by Word/Excel) to save them. (See Usage Section & Disclaimer for more info)
 
 #### dependencies to install
 + `winget install python`
