@@ -1,5 +1,5 @@
-+ the script TRIES to `Save & close` all `MS-WORD` and `MS-EXCEL` documents open at the computer
-+ close `MS-EXPLORER` windows.
++ the script TRIES to `save` & `close` all `MS-WORD` and `MS-EXCEL` documents open at the computer
++ closes `MS-EXPLORER` windows.
 + Session data (list of files) is stored in a txt file.
 + The saved(?) & closed files in the session can be `RE-OPENED` automatically by selecting the saved session from the list and then `RESTORE SESSION`.
 + Anomalies: In some cases files may not be saved, users most likely be prompted to save them. (See Usage Section for more info)
