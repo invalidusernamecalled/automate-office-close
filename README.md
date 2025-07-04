@@ -22,7 +22,7 @@
 
 #### usage:-
 + The closed files of a particular session can be `RE-OPENED` automatically by selecting the relevant saved session from the list and then clicking `RESTORE SESSION`.
-+ the script writes some txt files session_list_xxxx-xx-xx_xx-xx.txt in the same directory as the script.
++ the script writes txt files session_list_xxxx-xx-xx_xx-xx.txt in the same directory as the script.
 + keep the scripts in its separate directory due to the risk of over writing
 + the script does not KILL the MS-OFFICE APPS, rather it tries to close them gracefully using COM objects.
 
