@@ -4,7 +4,7 @@
 + if you would like to `save` & `close` and nothing else, you can simply run `saver.ps1` (powershell script)
 + the python script contains the saving (`remember`) logic and the UI.
 + Anomalies: In some cases files may not be saved, users will most likely be prompted to save them. (See Usage Section & Disclaimer for more info)
-+ Disclaimer: SOFTWARE IS PROVIDED AS IS AND WITHOUT WARRANTY or LIABILITY for the AUTHORS (without even any implied warranty of merchantibility or usability)
++ Disclaimer: Software is provided AS IS and WITHOUT WARRANTY or LIABILITY for the Authors (without even any implied warranty of merchantibility or usability)
 
 #### dependencies to install
 + `winget install python`
