@@ -4,7 +4,6 @@
 + if you would like to `save` & `close` and nothing else, you can simply run `saver.ps1` (powershell script)
 + the python script contains the saving (`remember`) logic and the UI.
 + Anomalies: In some cases files may not be saved, users will most likely be prompted to save them. (See Usage Section & Disclaimer for more info)
-+ Disclaimer: Software is provided AS IS and WITHOUT WARRANTY or LIABILITY for the Authors (without even any implied warranty of merchantibility or usability)
 
 #### dependencies to install
 + `winget install python`
@@ -23,6 +22,7 @@
 + The saved(?) & closed files in the session can be `RE-OPENED` automatically by selecting the saved session from the list and then `RESTORE SESSION`.
 + the script writes some txt files session_list_xxxx-xx-xx_xx-xx.txt in the same directory as the script. it is better to store the scripts in a separate directory to avoid over writing of similar name files
 + The script does not use KILL mechanism to close OFFICE, rather it uses COM protocol.
++ Disclaimer: Software is provided AS IS and WITHOUT WARRANTY or LIABILITY for the Authors (without even any implied warranty of merchantibility or usability)
 
 ```
       |V|
