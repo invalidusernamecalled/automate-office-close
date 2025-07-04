@@ -229,6 +229,7 @@ class SessionManager:
         def on_confirm():
             result['confirmed'] = True
             result['close_chrome'] = chrome_var.get()
+            result['close_edge'] = edge_var.get()
             confirm_popup.destroy()
 
         def on_cancel():
@@ -238,8 +239,10 @@ class SessionManager:
 
         # Checkbox
         chrome_var = tk.BooleanVar(value=False)
+        edge_var = tk.BooleanVar(value=False)
         checkbox = tk.Checkbutton(confirm_popup, text="Close Chrome as well", variable=chrome_var, bg="#f0f0f0", font=("Arial", 10))
         checkbox.pack()
+        tk.Checkbutton(confirm_popup, text="Close Edge as well", variable=edge_var, bg="#f0f0f0", font=("Arial", 10)).pack()
 
         # Buttons
         button_frame = tk.Frame(confirm_popup, bg="#f0f0f0")
@@ -252,9 +255,14 @@ class SessionManager:
             return 
         try:
             loading = self.show_loading_popup("Saving session...")
+            if not os.path.exists("saver.ps1"):
+                messagebox.showerror("Error", "Could not find 'saver.ps1'. Please make sure it exists in the same folder.")
+                return
             subprocess.run("powershell -executionpolicy bypass -file saver.ps1", shell=True)
             if result['close_chrome']:
                 subprocess.run("taskkill /IM chrome.exe", shell=True)
+            if result['close_edge']:
+                subprocess.run("taskkill /IM msedge.exe", shell=True)
             messagebox.showinfo("Saved", "Session has been saved.")
             self.load_session_files()
         except Exception as e:
