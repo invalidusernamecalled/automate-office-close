@@ -19,7 +19,7 @@
 `"c:\path\to\pythonw" "c:\path\to\session.manager.py"`
 
 #### usage:-
-+ The saved(?) & closed files in the session can be `RE-OPENED` automatically by selecting the saved session from the list and then `RESTORE SESSION`.
++ The saved(?) & closed files in the session can be `RE-OPENED` automatically by selecting the saved session from the list and then clicking `RESTORE SESSION`.
 + the script writes some txt files session_list_xxxx-xx-xx_xx-xx.txt in the same directory as the script. it is better to store the scripts in a separate directory to avoid over writing of similar name files
 + The script does not use KILL to close MS-OFFICE APPS, rather it tries to close them gracefully using COM objects.
 + Disclaimer: This software is provided <b>"as is"</b>, without any warranty or liability.
