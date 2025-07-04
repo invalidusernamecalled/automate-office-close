@@ -11,3 +11,6 @@
 + `where pythonw`
 #### Create Shortcut on Windows (optional)
 `"c:\path\to\pythonw" "c:\path\to\session.manager.py"`
+
+#### usage:-
++ the script writes some txt files session_list_xxxx-xx-xx_xx-xx.txt in the same directory as the script. it is better to store the scripts in a separate directory to avoid over writing of similar name files
