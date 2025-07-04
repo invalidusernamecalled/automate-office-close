@@ -1,6 +1,5 @@
 #### dependencies to install
 + `winget install python`
-+ `pip install pillow`
 + `pip install pywin32`
 
 #### Running the python script <----- to use the program
