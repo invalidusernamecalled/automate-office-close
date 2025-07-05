@@ -254,7 +254,7 @@ class SessionManager:
         if not result['confirmed']:
             return 
         try:
-            loading = self.show_loading_popup("Saving session...")
+            loading = self.show_loading_popup("Closing Windows & Saving session...")
             if not os.path.exists("saver.ps1"):
                 messagebox.showerror("Error", "Could not find 'saver.ps1'. Please make sure it exists in the same folder.")
                 return
