@@ -21,6 +21,7 @@
 `"c:\path\to\pythonw" "c:\path\to\session.manager.py"`
 
 #### usage:-
++ Download both scripts in a separate directory, install the dependencies. Run from command prompt `python session.manager.py` or Create Shortcut.
 + The closed files of a particular session can be `RE-OPENED` automatically by selecting the relevant saved session from the list and then clicking `RESTORE SESSION`.
 + the script writes txt files session_list_xxxx-xx-xx_xx-xx.txt in the same directory as the script.
 + keep the scripts in its separate directory due to the risk of over writing
@@ -29,7 +30,7 @@
 #### what each script does:-
 + `saver.ps1---->Tries to get a list of open windows, saves and closes open Word/Excel files using COM objects`
 + `saver.ps1---->Saves the list to session_list_xxxx-xx-xx_xx-xx.txt in the format yyyy-MM-dd_HH-mm and marks it as hidden`
-+ `session.manager.ps1----> Saves/Restores/Displays List of Sessions. Performs actions based on User interactions like executing Saver.ps1 script to save and close windows`
++ `session.manager.py----> Saves/Restores/Displays List of Sessions. Performs actions based on User interactions like executing Saver.ps1 script to save and close windows`
 
 ```
       |V|
