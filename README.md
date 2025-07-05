@@ -30,7 +30,7 @@
 #### what each script does:-
 + `saver.ps1---->Tries to get a list of open windows, saves and closes open Word/Excel files using COM objects`
 + `saver.ps1---->Saves the list to session_list_xxxx-xx-xx_xx-xx.txt in the format yyyy-MM-dd_HH-mm and marks it as hidden`
-+ `session.manager.py----> Saves/Restores/Displays List of Sessions. Performs actions based on User interactions like executing Saver.ps1 script to save and close windows`
++ `session.manager.py----> Saves/Restores/Displays List of Sessions. Performs actions based on User interactions like executing scripts to save and close windows, etc.`
 
 ```
       |V|
