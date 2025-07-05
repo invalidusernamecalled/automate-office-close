@@ -89,7 +89,7 @@ class SessionManager:
         # Save Session button
         self.save_button = tk.Button(
             button_frame,
-            text="Save Session",
+            text="Save & Close",
             image=self.save_icon,
             compound=tk.LEFT,
             command=self.save_session
